@@ -13,6 +13,23 @@
 
 ## 各系統について
 ### ROS2
+- パッケージの作成
+- pub-sub通信の理解
+公式チュートリアルを参考にする．
 #### DualShock4-RaspberryPi4通信
-
+調査中...
+#### raspi4-PC通信
+調査中...
+### ロボット全体
+#### GPIO制御
+pigpioを使用．下記参照
+https://qiita.com/NeK/items/da429f8c001476ec4544
+まずはLチカ(単色・非PWM)→Lチカ(単色・PWM)→Lチカ(RGB)→ROS2制御
+そのあとモータドライバ制御へ
 ### 表示系
+#### フルカラーLED
+使用LED
+https://akizukidenshi.com/catalog/g/gI-02476/
+参考URL
+https://www.souichi.club/raspberrypi/color-led/
+- 
